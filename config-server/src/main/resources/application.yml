@@ -8,9 +8,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/your-repo/config-repo.git  # 替换为你的配置仓库地址
-          search-paths: '{application}'
-          default-label: master
+          uri: git@github.com:xqxshine/cloud.git  # 替换为你的配置仓库地址
+          search-paths: config
+          default-label: main
 
 eureka:
   client:
